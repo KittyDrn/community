@@ -21,7 +21,7 @@ public class LogerTests {
     @Test
     public void testLogger(){
         System.out.println(logger.getName());
-
+        System.out.println("wo ai chen zhao");
         logger.debug("debug log");
         logger.info("info log");
         logger.warn("warn log");
